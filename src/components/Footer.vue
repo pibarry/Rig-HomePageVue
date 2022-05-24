@@ -58,9 +58,14 @@ export default {
 .footer-icon p {
   font-family: 'Noto Sans TC';
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   display: flex;
   color: #ffffff;
+  padding-left: 16px;
+
+}
+.footer-icon p:first-child {
+    font-weight: 700;
 }
 .footer-content {
   text-align: center;

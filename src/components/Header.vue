@@ -7,6 +7,7 @@
           id="logStyle"
           class="cursorPointer"
           alt="里格科技"
+          @click="anchor('Top')"
         />
 
         <b-col md="7" align-self="center" class="pc-item">
@@ -103,9 +104,13 @@ export default {
     },
 
     anchor(id) {
+      if (id === 'Top') {
+        document.documentElement.scrollTop = 0
+      } else {
       const dom = document.getElementById(id)
       document.documentElement.scrollTop =
         dom.offsetTop - this.$refs.title.offsetHeight
+      }
     }
   }
 }
