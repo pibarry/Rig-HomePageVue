@@ -3,7 +3,7 @@
     <div class="banner-content">
       <div class="banner-text">
         <p class="p1">里格科技</p>
-        <p class="p2">Rig Technology</p>
+        <p class="p2">Rig Tech</p>
       </div>
     </div>
   </div>
